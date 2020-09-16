@@ -1,2 +1,9 @@
 
+
+
+
+
+
+org.springframework.boot.env.EnvironmentPostProcessor=com.ironbank.ironbankstarter2020.ProfileAutodetectEnvironmentPostProcessor
+org.springframework.context.ApplicationContextInitializer = com.ironbank.ironbankstarter2020.ProfileSentinelApplicationContextInitializer
 org.springframework.boot.autoconfigure.EnableAutoConfiguration = com.ironbank.ironbankstarter2020.IronBankStarterConf
